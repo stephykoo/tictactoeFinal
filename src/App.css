@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.board {
+  background-color:transparent;
+  width:500px;
+  /* height:500px;
+  border:10px solid lightblue;
+  padding: 25px; */
+  /* margin: 25px; */
+  text-align:center;
+  padding-left:500px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.Overall {
+  text-align:center;
+}
+
+.square:hover {
+  background-color:lightyellow;
+  cursor: pointer;
+}
+
+/*.square {
+  justify-content: center;
+  font-size:5em;
+}*/
+
+
+ .Square1, .Square2, .Square3 {
+  background-image:url("https://majesticnature.files.wordpress.com/2012/04/blogheader17.jpg");
+  width:50px;
+  height:50px;
+  border:2px solid black;
+  padding: 25px;
+  margin: 25px;
+  justify-content: center;
+  font-size:5em;
+ }
+
+  .Square4, .Square5, .Square6 {
+   background-image:url("http://www.dq995.com/data/out/9/808407.jpg");
+   width:50px;
+   height:50px;
+   border:2px solid black;
+   padding: 25px;
+   margin: 25px;
+   justify-content: center;
+   font-size:5em;
+  }
+
+   .Square7, .Square8, .Square9 {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4ghLcRsA17nyOHTx8EgKOzJfuntz3YpNWBKFNODh02B7IQeo");
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    padding: 25px;
+    margin: 25px;
+    justify-content: center;
+    font-size:5em;
+   }
+
+   .Wrap {
+     padding-left:150px;
+     padding-bottom:500px;
+   }
+
+   .msg {
+     padding-left:80px;
+     color: black;
+     padding-top:30px;
+   }
+
+   .msg:hover {
+     color:lightyellow;
+   }
+
+   body {
+     background-image: url("http://t.wallpaperweb.org/wallpaper/nature/2560x1600/Majestic_Skies_Part_VI.jpg");
+     height:100%;
+     background-position: center;
+     background-repeat: no-repeat;
+
+   }
