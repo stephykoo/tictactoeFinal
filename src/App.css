@@ -105,8 +105,9 @@
 
    body {
      background-image: url("https://wallpapertag.com/wallpaper/middle/e/5/c/375973-best-pixel-background-tumblr-2560x1440.jpg");
-     height:100%;
+     height: 100%;
      background-position: center;
      background-repeat: no-repeat;
+     background-size: cover;
 
    }
