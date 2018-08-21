@@ -45,7 +45,7 @@
 }
 
 .square:hover {
-  background-color:lightgreen;
+  background-color:lightblue;
   cursor: pointer;
 }
 
@@ -94,7 +94,7 @@
    }
 
    .msg {
-     padding-left:80px;
+     /* padding-left:80px; */
      color: black;
      padding-top:30px;
      font-size: 50px;
@@ -102,7 +102,7 @@
    }
 
    .msg:hover {
-     color:lightgreen;
+     color:lightblue;
    }
 
    body {
