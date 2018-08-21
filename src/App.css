@@ -45,7 +45,7 @@
 }
 
 .square:hover {
-  background-color:lightyellow;
+  background-color:lightgreen;
   cursor: pointer;
 }
 
@@ -56,7 +56,7 @@
 
 
  .Square1, .Square2, .Square3 {
-  background-image:url("https://majesticnature.files.wordpress.com/2012/04/blogheader17.jpg");
+  /* background-image:url("https://majesticnature.files.wordpress.com/2012/04/blogheader17.jpg"); */
   width:50px;
   height:50px;
   border:2px solid black;
@@ -67,7 +67,7 @@
  }
 
   .Square4, .Square5, .Square6 {
-   background-image:url("http://www.dq995.com/data/out/9/808407.jpg");
+   /* background-image:url("http://www.dq995.com/data/out/9/808407.jpg"); */
    width:50px;
    height:50px;
    border:2px solid black;
@@ -78,7 +78,7 @@
   }
 
    .Square7, .Square8, .Square9 {
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4ghLcRsA17nyOHTx8EgKOzJfuntz3YpNWBKFNODh02B7IQeo");
+    /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4ghLcRsA17nyOHTx8EgKOzJfuntz3YpNWBKFNODh02B7IQeo"); */
     width:50px;
     height:50px;
     border:2px solid black;
@@ -97,10 +97,12 @@
      padding-left:80px;
      color: black;
      padding-top:30px;
+     font-size: 50px;
+     font-family: 'VT323', monospace;
    }
 
    .msg:hover {
-     color:lightyellow;
+     color:lightgreen;
    }
 
    body {
